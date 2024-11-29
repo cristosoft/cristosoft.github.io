@@ -57,6 +57,10 @@ nav a:hover {
     font-size: 4rem;
 }
 
+#title p {
+    font-size: 1.5rem;
+}
+
 #presentation p {
     font-size: 1.4rem;
     text-align: justify;
