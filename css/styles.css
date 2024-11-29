@@ -46,21 +46,20 @@ nav a:hover {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-#presentation {
+#title {
     margin-top: 2em;
     padding: 2em;
     text-align: center;
     background-color: rgba(190, 190, 190, 0.7);
 }
 
-#presentation h1 {
+#title h1 {
     font-size: 4rem;
 }
 
 #presentation p {
-    margin-left: 6em;
-    margin-right: 6em;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    text-align: justify;
 }
 
 .section {
@@ -76,16 +75,14 @@ nav a:hover {
     transition: background-color 0.4s ease;
 }
 
-
-
 .section h2 {
     margin-top: 0;
     font-size: 3rem;
 }
 
 .section p {
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 16rem;
+    margin-right: 16rem;
     font-size: 2rem;
 }
 
@@ -93,6 +90,8 @@ nav a:hover {
     text-align: left;
     list-style-position: inside;
     font-size: 1.5rem;
+    margin-left: 16rem;
+    margin-right: 16rem;
 }
 
 #competences ul {
