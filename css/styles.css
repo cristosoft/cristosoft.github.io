@@ -28,7 +28,8 @@ nav {
     margin: 0;
     width: 100%;
     font-size: 1.5rem;
-    }
+    z-index: 1000;
+}
 
 nav a {
     float: left;
@@ -139,11 +140,23 @@ nav a:hover {
     padding: 1em;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
+    cursor: pointer;
 }
 
-/*#projets li:hover {
+#projets li img {
+    width: 300px;
+    height: auto;
+}
+
+#projets li a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+
+#projets li:hover {
     transform: scale(1.02);
-}*/
+}
 
 #projets li h3 {
     margin-top: 0;
