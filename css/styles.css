@@ -71,12 +71,12 @@ nav a:hover {
     margin-top: 5.0rem;
     padding: 1.0rem;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.6);
     transition: background-color 0.4s ease;
 }
 
 .section:hover {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
     transition: background-color 0.4s ease;
 }
 
@@ -86,8 +86,8 @@ nav a:hover {
 }
 
 .section p {
-    margin-left: 16rem;
-    margin-right: 16rem;
+    margin-left: 10%;
+    margin-right: 10%;
     font-size: 2rem;
 }
 
@@ -95,8 +95,8 @@ nav a:hover {
     text-align: left;
     list-style-position: inside;
     font-size: 1.5rem;
-    margin-left: 16rem;
-    margin-right: 16rem;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #competences ul {
@@ -148,7 +148,7 @@ nav a:hover {
 }
 
 #projets li img {
-    width: 300px;
+    width: 30%;
     height: auto;
 }
 
